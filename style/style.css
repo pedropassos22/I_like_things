@@ -3,10 +3,22 @@
  padding: 0;
 }
 
+.cabecalho{
+    padding: 2% 0 0 45%;
+}
+
 .bandsection {
     display: flex;
 }
 
-.individualband {
+.bandsection__individualband {
     margin: 5%;
+}
+
+.bandsection__individualband__fotoartista{
+    width: 100%;
+}
+
+.bandsection__individualband__nomebanda {
+    text-align: center;
 }
