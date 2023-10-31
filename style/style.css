@@ -4,5 +4,19 @@
 }
 
 body{
+  
+}
+
+.bandsection {
     display: flex;
+    flex-wrap: wrap;
+}
+
+.bandsection__individualband {
+    width: 300px;
+    padding: 1%;
+}
+
+.bandsection__individualband__fotoartista {
+    width: 100%;
 }
