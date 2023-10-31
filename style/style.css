@@ -13,6 +13,7 @@
 
 .bandsection__individualband {
     margin: 5%;
+    min-width: 200px;
 }
 
 .bandsection__individualband__fotoartista{
