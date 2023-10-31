@@ -3,27 +3,6 @@
  padding: 0;
 }
 
-.cabecalho{
-    padding: 2% 0 0 45%;
-}
-
-.principal {
-    justify-content: space-between;
-}
-
-.bandsection {
+body{
     display: flex;
-}
-
-.bandsection__individualband {
-    margin: 5%;
-    min-width: 200px;
-}
-
-.bandsection__individualband__fotoartista{
-    width: 100%;
-}
-
-.bandsection__individualband__nomebanda {
-    text-align: center;
 }
