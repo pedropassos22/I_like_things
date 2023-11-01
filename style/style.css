@@ -1,20 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
+
+:root{
+--cor-de-fundo: #000000;
+--cor-primaria: #3D0000;
+--cor-secundaria: #950101;
+--cor-terciaria: #FF0000;
+--cor-texto-primario: #EEEEEE;
+
+--fonte-menu: 'Oswald', 'sans-serif';
+
+}
+
 *{
  margin: 0;
  padding: 0;
 }
 
 body{
-  
+  color: var(--cor-texto-primario);
+  background-color: var(--cor-de-fundo);
 }
 
-.bandsection {
+.cabecalho {
     display: flex;
+    justify-content: center;
+    border-bottom: solid 1px var(--cor-secundaria);
+    padding: 5px;
+    margin: 0;
+}
+
+.cabecalho__links {
+    font-family: var(--fonte-menu);
+    font-size: 1.5em;
+    font-weight: 700;
+    color: var(--cor-texto-primario);
+    text-decoration: none;
+    margin: 15px;
+}
+
+
+.bandsection {
     flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    margin: 50px;
 }
 
 .bandsection__individualband {
     width: 300px;
-    padding: 1%;
+    margin: auto;
+    padding:1%   
+}
+
+.bandsection__individualband__nomebanda {
+    
+    font-family: var(--fonte-menu);
+    font-weight: 500;
+    font-size: 1.5em;
+}
+.bandsection__individualband__faixas {
+    font-family: var(--fonte-menu);
+    font-weight: 200;
+    font-size: 1.3em;
 }
 
 .bandsection__individualband__fotoartista {
