@@ -52,13 +52,20 @@ body{
     padding:1%   
 }
 
+
+
 .bandsection__individualband__nomebanda {
-    
     font-family: var(--fonte-menu);
     font-weight: 500;
     font-size: 1.5em;
 }
-.bandsection__individualband__faixas {
+
+.bandsection__individualband__musicsband {
+    margin-top: 5px;
+}
+
+
+.bandsection__individualband__faixas { /* vai ser trocado por link's*/
     font-family: var(--fonte-menu);
     font-weight: 200;
     font-size: 1.3em;
