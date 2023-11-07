@@ -75,6 +75,18 @@ body{
     width: 100%;
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 540px) {
+    .cabecalho {
+        flex-wrap: wrap;
+        justify-content: center;
+        border-bottom: solid 1px var(--cor-secundaria);
+        padding: 5px;
+        margin: 0;
+    }
 
+    .cabecalho__links {
+        font-family: var(--fonte-menu);
+        font-size: 2.0em;
+        margin: 5px 5%;
+    }
 }
