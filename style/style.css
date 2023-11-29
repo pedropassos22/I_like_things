@@ -43,11 +43,19 @@ body{
 }
 
 
-.bandsection {
+/*.bandsection {
     flex-wrap: wrap;
     display: flex;
     justify-content: center;
     margin: 1% 0;
+}*/
+
+.bandsection {
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: flex-start; /* Alterado de 'center' para 'flex-start' */
+    align-items: flex-start; /* Adicionado para alinhar os itens à esquerda */
+    margin:1% 0 0 2%;
 }
 
 .bandsection__individualband {
